@@ -25,6 +25,13 @@ iex> :ets.delete(table)
 iex> :ets.delete_all_objects(table)
 ```
 
+### Tables
+
+```elixir
+iex> :ets.all()
+     [:table, :list]
+```
+
 ### Flags
 
 ```elixir
